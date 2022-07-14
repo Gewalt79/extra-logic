@@ -1,0 +1,30 @@
+.textarea {
+  display: flex;
+  flex-flow: column;
+  width: 250px;
+  height: 150px;
+  bottom: 1px solid;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(204, 209, 227);
+  justify-content: space-evenly;
+  margin: 15px;
+}
+
+.textarea textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.textarea-about {
+  display: flex;
+  align-items: center;
+  margin-top: -20px;
+}
+
+.textarea-about input {
+  width: 200px;
+  height: 15px;
+  box-sizing: border-box;
+}

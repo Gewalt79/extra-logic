@@ -1,0 +1,29 @@
+.input {
+  display: flex;
+  flex-flow: column;
+  width: 250px;
+  height: 150px;
+  bottom: 1px solid;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  background-color: bisque;
+  justify-content:space-evenly;
+  margin: 15px;
+}
+
+.input input {
+  width: 100%;
+  box-sizing: border-box;
+
+}
+
+.input-about {
+  display: flex;
+  align-items: center;
+  margin-top: -20px;
+}
+
+.input-about input {
+  width: 200px;
+}
