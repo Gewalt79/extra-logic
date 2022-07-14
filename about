@@ -18,6 +18,28 @@
  В случае если запрос не отработал в консоли выведется ошибка с описанием проблемы.
  На сайте добавлена возможность отображать тэг select в случае если форма вернулась с селектом.
 
+Как выглядит json объект.
+"params": {"form_name": "Best of the best",
+            "template": [
+                {
+                    "type": "textarea",
+                    "about": "About yourself?",
+                    "value": "ZZZZelensky VVVVladimir"
+                },
+                {
+                    "type": "input",
+                    "about": "Enter your name",
+                    "value": "Vladimir Putin"
+                }
+            ]},
+
+Как выглядит объект типа select?
+ {
+  "type": "input",
+  "about": "Enter your name",
+  "value": "Vladimir Putin",
+  "options": ["1", "2", "3"]
+ }
 
 Чего нет:
  -На сайте site нет возможности добавлять select
